@@ -1,0 +1,102 @@
+/* Style CSS */
+html,body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: sans-serif; 
+  font-size: large;
+  border-color: antiquewhite;
+  background-color: #cfd9e9;
+  text-align: center;
+}
+
+.banner {
+  background-image: url('https://images.samsung.com/is/image/samsung/assets/ca/B6-Group-KV_Global-Online_PC.jpg?imbypass=true');
+      background-size: cover; 
+      background-position: center;  
+      background-repeat: no-repeat; 
+      height: 400px;   
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 8rem;
+  color: rgb(43, 129, 210);
+  margin: 5%;
+}
+
+.logo {
+  height: 10%;
+}
+
+a {
+color:rgb(15, 12, 234);
+text-decoration: none;
+font-weight: bold;
+}
+
+.description {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.description td {
+  padding: 10px;
+}
+
+ul {
+  text-align: justify;
+}
+
+figure img {
+  max-width: 50%;
+  height: auto; 
+  border-radius: 5em;
+}
+  
+figcaption {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+.similar {
+  text-align: center; 
+  border-collapse: collapse;
+  width: 20%; 
+  margin: 20px auto;
+  margin-top: 5%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+
+}  
+
+.similar th[colspan="2"] {
+  background-color: #c2bfc5; 
+  padding: 15px; 
+}
+
+.similar tr:nth-child(even) {
+  background-color: #547dc2; 
+}
+.similar tr:nth-child(odd) {
+  background-color: #92b4e8; 
+}
+
+.map {
+  text-align: center;
+  margin: 20px 0;
+}
+
+footer{
+  text-align: center;
+  font-size: 15px;
+}

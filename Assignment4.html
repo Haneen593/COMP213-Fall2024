@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!-- Name: Haneen Ftayeh | Student Number: 301487024 -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body> 
+    <!--Header Section-->
+    <div class="banner">
+        <header>
+            <a href="https://www.centennialcollege.ca/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Centennial_College_Logo.jpg" alt="Centennial College Logo" width="400"></a>
+                <h1>Continuing Education Course/Instructor Evaluation</h1>
+        </header>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <p>Please read each statement carefully consider each one individually. Use <b>computer card</b> to make your 
+        choice (use a pencil to fill in the space). Give only <b>one answer</b> for each question.</p>
+    </div>
+    
+    <!--Form Section--> 
+    <div class="form">
+     <form action="/action_page.php" method="get" autocomplete="on">
+        <label for="course-name">Course Name/Code: </label>
+        <input type="text" id="course-name" name="course-name"><br>
+        <br>
+
+        <label for="semester">Semester: </label>
+        <label for="fall">Fall</label>
+        <input type="radio" id="fall" name="semester">
+        <label for="winter">Winter</label>
+        <input type="radio" id="winter" name="semester">
+        <label for="spring/summer">Spring/Summer</label>
+        <input type="radio" id="spring/summer" name="semester">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <label for="year">Year:</label>
+        <select id="year" name="year">
+            <option value="empty"> </option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+            <option value="2030">2030</option>
+            <option value="2031">2031</option>
+            <option value="2032">2032</option>
+            <option value="2033">2033</option>
+            <option value="2034">2034</option>
+            <option value="2035">2035</option>
+            <option value="2036">2036</option>
+            <option value="2037">2037</option>
+            <option value="2038">2038</option>
+            <option value="2039">2039</option>
+            <option value="2040">2040</option>
+        </select><br>
+        <br>
+
+    <!-- Instuctor evaluation-->
+        <label for="instructor">Instructor Name: </label>
+        <input type="text" id="instructor" name="instructor"><br>
+        <br>
+
+    <fieldset>
+        <legend><b>INSTRUCTOR</b></legend><br>
+        <Label> How would you rate the instructor's:</Label><br>
+        <br>
+        <label for="knowledge">1. <b>Knowledge</b> of subject?</label><br>
+        <label for="excellent">Excellent</label>
+        <input type="radio" id="excellent" name="knowledge">
+        <label for="good">Good</label>
+        <input type="radio" id="good" name="knowledge">
+        <label for="fair">Fair</label>
+        <input type="radio" id="fair" name="knowledge">
+        <label for="not-satisfactory">Not Satisfactory</label>
+        <input type="radio" id="not-satisfactory" name="knowledge"><br>
+        <br>
+
+        <label for="helpfulness">2. <b>Helpfulness</b>?</label><br>
+        <label for="excellent">Excellent</label>
+        <input type="radio" id="excellent" name="helpfulness">
+        <label for="good">Good</label>
+        <input type="radio" id="good" name="helpfulness">
+        <label for="fair">Fair</label>
+        <input type="radio" id="fair" name="helpfulness">
+        <label for="not-satisfactory">Not Satisfactory</label>
+        <input type="radio" id="not-satisfactory" name="helpfulness"><br>
+        <br>
+
+        <label for="courtesy">3. <b>Courtesy and Respect</b>for all student?</label><br>
+        <label for="excellent">Excellent</label>
+        <input type="radio" id="excellent" name="courtesy">
+        <label for="good">Good</label>
+        <input type="radio" id="good" name="courtesy">
+        <label for="fair">Fair</label>
+        <input type="radio" id="fair" name="courtesy">
+        <label for="not-satisfactory">Not Satisfactory</label>
+        <input type="radio" id="not-satisfactory" name="courtesy"><br>
+        <br>
+
+        <label for="communication">4. <b>Communication</b>skills?</label><br>
+        <label for="excellent">Excellent</label>
+        <input type="radio" id="excellent" name="communication">
+        <label for="good">Good</label>
+        <input type="radio" id="good" name="communication">
+        <label for="fair">Fair</label>
+        <input type="radio" id="fair" name="communication">
+        <label for="not-satisfactory">Not Satisfactory</label>
+        <input type="radio" id="not-satisfactory" name="communication"><br>
+        <br>
+
+        <label for="performance">5. Overall <b>performance</b>?</label><br>
+        <label for="excellent">Excellent</label>
+        <input type="radio" id="excellent" name="performance">
+        <label for="good">Good</label>
+        <input type="radio" id="good" name="performance">
+        <label for="fair">Fair</label>
+        <input type="radio" id="fair" name="performance">
+        <label for="not-satisfactory">Not Satisfactory</label>
+        <input type="radio" id="not-satisfactory" name="performance"><br>
+    </fieldset>
+        <br>
+        <br>
+    
+    <!--Course evaluation-->
+    <fieldset>
+        <Legend><b>COURSE</b></Legend><br>
+        <label for="performance">6. How would you rate the <b>course materials</b>?</label><br>
+        <label for="excellent">Excellent</label>
+        <input type="radio" id="excellent" name="performance">
+        <label for="good">Good</label>
+        <input type="radio" id="good" name="performance">
+        <label for="fair">Fair</label>
+        <input type="radio" id="fair" name="performance">
+        <label for="not-satisfactory">Not Satisfactory</label>
+        <input type="radio" id="not-satisfactory" name="performance"><br>
+        <br>
+
+        <label for="expectations">7. How much did this course meet your <b>expectations</b>?</label><br>
+        <label for="excellent">Excellent</label>
+        <input type="radio" id="excellent" name="expectations">
+        <label for="good">Good</label>
+        <input type="radio" id="good" name="expectations">
+        <label for="fair">Fair</label>
+        <input type="radio" id="fair" name="expectations">
+        <label for="not-satisfactory">Not Satisfactory</label>
+        <input type="radio" id="not-satisfactory" name="expectations"><br>
+        <br>
+
+        <label for="overall">8. How would you rate this course <b>(overall)</b>?</label><br>
+        <label for="excellent">Excellent</label>
+        <input type="radio" id="excellent" name="overall">
+        <label for="good">Good</label>
+        <input type="radio" id="good" name="overall">
+        <label for="fair">Fair</label>
+        <input type="radio" id="fair" name="overall">
+        <label for="not-satisfactory">Not Satisfactory</label>
+        <input type="radio" id="not-satisfactory" name="overall"><br>
+    </fieldset>
+        <br>
+        <br>
+
+    <!-- General information Section -->
+     <fieldset>
+        <Legend><b>GENERAL INFORMATION</b></legend><br>
+        <label for="course-outline">9. Was the <b>course outline</b> reviewed/explained at the beginning of your course?</label><br>
+        <label for="yes">Yes</label>
+        <input type="checkbox" id="yes" name="course-outline">
+        <label for="no">No</label>
+        <input type="checkbox" id="no" name="course-outline">
+        <label for="not-sure">Not Sure</label>
+        <input type="checkbox" id="not-sure" name="course-outline"><br>
+        <br>
+
+        <label for="recommend">10. Would you <b>recommend</b> this course to a friend with the same interests?</label><br>
+        <label for="yes">Yes</label>
+        <input type="checkbox" id="yes" name="recommend">
+        <label for="no">No</label>
+        <input type="checkbox" id="no" name="recommend">
+        <label for="not-sure">Not Sure</label>
+        <input type="checkbox" id="not-sure" name="recommend"><br>
+        <br>
+        <br>
+
+    <!-- Other comments Section-->
+        <label><b>ANY OTHER COMMENTS</b></Label><br>
+        <br>
+        <label for="best-thing">11. What is the <b>best thing</b> about this course?</label><br>
+        <textarea name="best-thing" rows="5" cols="70"></textarea><br>
+        <br>
+
+        <label for="improve">12. How could we <b>improve</b> this course?</label><br>
+        <textarea name="improve" rows="5" cols="70"></textarea><br>
+        <br>
+
+        <label for="other">13. Other: </label><br>
+        <textarea name="improve" rows="5" cols="70"></textarea>
+    </fieldset>
+        <br>
+
+        <input type="submit" value="Click here to submit">
+        <input type="reset" value="Reset">
+     </form>
+    </div>
+
+    <!--End of the page--> 
+     <div class="end">
+        <p><i>Thank you! We pay attention to your feedback!</i></p>
+        <i>Web:<a href="https://secure.centennialcollege.ca/webreg/help.do" target="_blank">www.centennialcollege.ca/countinuing_education</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Email:<a href="mailto:ce@centennialcollege.ca">continuingeducation@centennialcollege.ca</a></i>
+    </div>
+
+    <!--Footer Section-->
+    <footer>
+        <p>&copy; Copyright Fall 2024 | Haneen Ftayeh - 301487024 | COMP213</p>
+    </footer>
+</body>
+</html>
